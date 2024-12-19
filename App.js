@@ -4,6 +4,7 @@ import { UserProvider } from './context/UserContext'; // Importer le contexte
 import { createStackNavigator } from '@react-navigation/stack';
 import MainScreen from './screens/MainScreen';
 import QRCodeScreen from './screens/QRCodeScreen';
+import 'react-native-reanimated';
 
 const Stack = createStackNavigator();
 
